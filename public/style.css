@@ -1,0 +1,86 @@
+*{
+    padding: auto;
+    margin: auto;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+
+    width: 100%;
+    background: linear-gradient(to bottom, #68EACC 0%, blue);
+}
+.val{
+    background-color:#68EACC  ;
+    height: 30px;
+    border-radius: 5px;
+    color: #000;
+}
+.input{
+    margin: 120px,auto;
+    max-width: 500px;
+    width: 100%;
+    background: red;
+    justify-content: center;
+    border-radius: 25px;
+    margin-top: 15%;
+    padding: 45px;
+}
+.btn{
+margin-left: 50px;
+margin-top: 7px;
+background:yellowgreen;
+color: white; 
+border-radius: 45px;
+height: 25px;
+cursor:progress ;
+
+}
+.add{
+ background:yellowgreen;
+ color: white; 
+ border-radius: 45px;
+ height: 25px;
+ cursor:progress ;
+}
+.dltall{
+    
+        background:yellowgreen;
+        color: white; 
+        border-radius: 45px;
+        height: 25px;
+        cursor:progress ;
+       
+}
+.litxt{
+    font-family: 'Girassol', cursive;
+    font-size: 45px;
+}
+.edit{
+    margin-left: 50px;
+    margin-top: 7px;
+    background:yellowgreen;
+    color: white; 
+    border-radius: 45px;
+    height: 25px;
+    cursor:progress ;
+    justify-content: flex-end;
+}
+.list{
+   color: springgreen;
+
+}
+.li{
+    border-bottom: black 1px solid;
+   
+    max-width:inherit;
+}
+/* .span{
+    text-align: center;
+    font-size: large;
+    font-family: 'Girassol', cursive;
+} */
+.heading{
+    justify-content: center;
+    margin-top: 58px;
+    text-align: center;
+}

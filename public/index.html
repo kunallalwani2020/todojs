@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-database.js"></script>
+<script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+      apiKey: "AIzaSyDq_cfsXfzFPMTB5q4XJ58PSAhGy9A2u4w",
+      authDomain: "todo-app-ba4ca.firebaseapp.com",
+      projectId: "todo-app-ba4ca",
+      storageBucket: "todo-app-ba4ca.appspot.com",
+      messagingSenderId: "375099584995",
+      appId: "1:375099584995:web:e4cbcc6b14d39ab04d70d6",
+      measurementId: "G-6LL519VJ77"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  
+  </script>
+</head>
+<body>
+    <div class="heading">   
+    <span style="font-family: 'Girassol', cursive; font-size: 45px; text-align: center; color: green; cursor: pointer;"  >TODO</span><span style="font-family: 'Girassol', cursive; font-size: 45px; text-align: center; color: white; cursor: pointer;">LIST</span>
+</div>
+    <div class="input">
+        <input type="text" name="value" id="todo" placeholder="Enter Todo" class="val">
+        
+        <button onclick="addtodo()" class="add">ADD TODO</button>
+        <button onclick="dlt()" class="dltall" id= "data.val().key">DELETE ALL</button>
+    
+<ul id="list" class="list">
+
+</ul>
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
